@@ -1,0 +1,4 @@
+.idea/
+*.iml
+/configServer/propertiesRepo/
+*/target/
