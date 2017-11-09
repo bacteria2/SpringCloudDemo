@@ -5,7 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: "file:./configServer/propertiesRepo"
-
+          uri: "file:./configServer/propertiesRepo/"
 server:
-  port: 8888
+  port: 8889
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
